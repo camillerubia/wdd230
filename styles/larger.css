@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+
+    header{
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .student-image {
+        width: 150px;
+    }
+
+    header h1 {
+        width: unset;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    nav a {
+        width: 25%;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    main h2 {
+        text-align: left;
+    }
+
+    main .card-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main .card-wrapper section {
+        box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
+        -webkit-box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
+        -moz-box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
+    }
+}
