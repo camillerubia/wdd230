@@ -1,8 +1,7 @@
 @media screen and (min-width: 768px) {
-
-    header{
+    header {
         justify-content: center;
-        gap: 15px;
+        gap: 60px;
     }
 
     .student-image {
@@ -23,17 +22,23 @@
         font-size: 18px;
     }
 
-    main h2 {
+    h2 {
         text-align: left;
     }
 
-    main .card-wrapper {
+    main {
         grid-template-columns: 1fr 1fr;
     }
 
-    main .card-wrapper section {
+    main section, .student-image {
         box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
         -webkit-box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
         -moz-box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
+    }
+
+    footer p:first-child {
+        flex-direction: row;
+        gap: 8px;
+        justify-content: center;
     }
 }
