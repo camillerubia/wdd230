@@ -1,0 +1,95 @@
+:root {
+  --primary-color: #1B4332;
+  --secondary-color:#74C69D ; 
+  --accent1-color: #95D5B2;
+  --accent2-color: #B7E4C7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Lora", Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  color: #1B4332;
+}
+
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: #74C69D;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  color: #1B4332;
+  background-color: #B7E4C7;
+}
+
+p, li {
+  font-family: var(--paragraph-font);
+  color: #1B4332;
+  padding: 1em;
+}
+
+li {
+    text-align: left;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.accent1 {
+  background-color: var(--accent1-color);
+}
+
+.accent2{
+  background-color: var(--accent2-color);
+}
