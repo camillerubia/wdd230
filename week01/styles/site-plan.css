@@ -26,8 +26,11 @@ img {
   max-width: 300px;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: "Dancing Script";
+}
+
+h1 {
   font-size: 3em;
 }
 
