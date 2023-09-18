@@ -1,5 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
 	font-family: Roboto, helvetica, sans-serif;
+    margin: 1rem;
+    font-size: 18px;
 }
 
 header,
@@ -9,24 +17,33 @@ footer {
 	margin: 0 auto;
 }
 
-.banner {
+div.banner {
 	padding: 1rem;
 	background-color: #eee;
+    text-align: center;
+    font-weight: 700;
 }
 
 h1 {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 main {
 	display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+section {
+    padding: 20px;
 }
 
 h2 {
 	color: navy;
 	text-align: left;
     grid-column: 1/3;
+    margin-top: 20px;
 }
 
 article p {
@@ -36,6 +53,8 @@ article p {
 .callout {
 	color: #c1bdbd;
 	background-color: #702963;
+    padding: 15px;
+    grid-column: 1/3;
 }
 
 footer {
@@ -43,4 +62,5 @@ footer {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: smaller;
 	text-align: left;
+    padding-top: 10px;
 }
