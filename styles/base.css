@@ -24,6 +24,7 @@ header h1 {
 }
 
 .student-image {
+    /* aspect-ratio: 4/3; */
     width: 25%;
     object-fit: cover;
 }
