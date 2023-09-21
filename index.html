@@ -27,12 +27,18 @@
     <header>
         <img class="student-image" src="images/camille-rubia.jpg" alt="Camille Rubia's photo">
         <h1>Camille Rubia</h1>
+
+        <div id="mode">✩☾</div>
     </header>
     <nav>
-        <a class="active" href="index.html" >Home</a>
-        <a href="#">Chamber</a>
-        <a href="week01/chamber-site-plan.html">Site Plan</a>
-        <a href="#">Form</a>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a class="active" href="index.html" >Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+        
     </nav>
     <div class="page-title">
         <h2>WDD 230: Web Frontend Development</h2>
@@ -93,5 +99,7 @@
         <p id="lastModified">Last Modified: <span></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script>
 </body>
 </html>

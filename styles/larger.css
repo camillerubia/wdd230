@@ -12,8 +12,17 @@
         width: unset;
     }
 
-    nav {
+    #menu {
+        display: none;
+    }
+
+    .navigation {
         flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%
     }
 
     nav a {
@@ -29,6 +38,8 @@
     main {
         grid-template-columns: 2fr 1fr;
     }
+
+
 
     main section, .student-image {
         box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
