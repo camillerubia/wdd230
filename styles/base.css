@@ -55,6 +55,8 @@ nav a:hover, .active {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    border-radius: 8px;
+    width: 40px;
 }
 
 #menu::before {
@@ -83,6 +85,7 @@ nav a:hover, .active {
     text-align: center;
     text-decoration: none;
     color: #B7E4C7;
+    width: 100%;
 }
 
 .open li {
