@@ -10,8 +10,9 @@ body, html {
     color: #1B4332;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
     font-family: "Dancing Script";
+    padding-bottom: 20px;
 }
 
 button {
@@ -223,6 +224,7 @@ main .card, .event-section {
 .event-section .event-wrapper .event-link {
     text-align: right;
     text-decoration: underline !important; 
+    padding: 10px;
 }
 
 .card .ad-wrapper ul {
