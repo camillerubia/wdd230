@@ -70,6 +70,10 @@
         text-align: left;
     }
 
+    footer .logo-link {
+        width: 10%;
+    }
+
     footer p:first-child {
         flex-direction: row;
         gap: 8px;
