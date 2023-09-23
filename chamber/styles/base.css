@@ -187,7 +187,7 @@ main section {
     padding: 25px;
 }
 
-main .card {
+main .card, .event-section {
     border-radius: 8px;
     border: 1px solid #081C15;
 }
