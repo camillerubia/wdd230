@@ -97,6 +97,7 @@ nav a:hover, .active {
 #menu.open::before {
     content: "X";
 }
+
 nav.open {
     position: fixed;
     top: 0;
@@ -106,10 +107,12 @@ nav.open {
     width: 100%;
     background-color: #081C15;
 }
+
 nav.open ul li a {
     border-bottom: 1px solid #74C69D;
     text-align: left;
 }
+
 .navigation {
     display: flex;
     flex-direction: column;
