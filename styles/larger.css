@@ -29,20 +29,33 @@
         font-size: 18px;
     }
 
+    .hero img {
+        display: block;
+    }
+
     h2 {
         text-align: left;
     }
 
     main {
         grid-template-columns: 2fr 1fr;
+        margin: 0 30px;
     }
 
-
+    main .page-title, iframe {
+        margin: 0;
+        padding: 0;
+    }
 
     main section, .student-image {
         box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
         -webkit-box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
         -moz-box-shadow: -1px 3px 16px -1px rgba(0,0,0,0.74);
+    }
+
+    .card {
+        grid-column: unset;
+        margin: 0;
     }
 
     footer p:first-child {
