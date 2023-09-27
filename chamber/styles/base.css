@@ -12,7 +12,6 @@ body, html {
 
 h1, h2, h3 {
     font-family: "Dancing Script";
-    padding-bottom: 20px;
 }
 
 button {
@@ -245,7 +244,31 @@ footer a {
     justify-content: center;
     text-align: left;
 }
+.footer-bcc-details .contact-info {
+    padding-bottom: 10px;
+}
 
-footer .logo {
+.footer-bcc-details .contact-info span {
+    display: block;
+}
+
+
+.footer-bcc-details img {
     width: 16%;
+}
+
+.footer-bcc-details .name-wrapper p {
+    font-weight: 600;
+}
+
+.footer-bcc-details .name-wrapper span {
+    font-style: italic;
+}
+
+.footer-student-info {
+    color: #fff;
+}
+
+.footer-student-info .student-name {
+    font-weight: 800;
 }
