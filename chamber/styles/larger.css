@@ -97,4 +97,8 @@
     .footer-student-info p span {
         padding-right: 10px;
     }
+
+    .footer-student-info span #year {
+        padding-right: 0;
+    }
 }
