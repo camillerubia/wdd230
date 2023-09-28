@@ -127,6 +127,25 @@ nav a:hover, .active {
     object-fit: cover;
 }
 
+.hero .hero-label p {
+	position: absolute !important;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #cbc3b3);
+	border: 1px solid #cbc3b3;
+	padding: 1.5rem;
+	box-shadow: 0 0 1rem #cbc3b3;
+	opacity: 0.75;
+}
+
+.hero-label p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family: 'Parisienne', cursive;
+}
+
 h2 {
     text-align: center;
     border-bottom: 1px solid #081C15;

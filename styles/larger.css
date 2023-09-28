@@ -33,6 +33,16 @@
         display: block;
     }
 
+    .hero .hero-label p {
+        top: 50px;
+        left: 50px;
+        padding: 2rem;
+    }
+
+    .hero-label p {
+        font-size: 3rem;
+    }
+
     h2 {
         text-align: left;
     }
