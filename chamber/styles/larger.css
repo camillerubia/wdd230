@@ -59,6 +59,10 @@
         grid-row: 1/1;
     }
 
+    main .discover-main {
+        grid-template-columns: 1fr 2fr;
+    }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;

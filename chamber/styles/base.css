@@ -233,6 +233,10 @@ main .card, .event-section {
     list-style: none;
 }
 
+/* main .discover-main {
+    
+} */
+
 footer {
     background-color: #081C15;
     color: #B7E4C7;
@@ -251,7 +255,6 @@ footer a {
 .footer-bcc-details .contact-info span {
     display: block;
 }
-
 
 .footer-bcc-details img {
     width: 16%;
