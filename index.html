@@ -7,10 +7,10 @@
     <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal">
     <meta name="author" content="Camille Rubia">
 
-    <link href="styles/base.css" rel="stylesheet">
-    <link href="styles/larger.css" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,14 +102,16 @@
         <iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3848.3310356673037!2d120.02771623164935!3d15.304234739257904!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDE4JzE5LjUiTiAxMjDCsDAxJzMxLjgiRQ!5e0!3m2!1sen!2sph!4v1695802082221!5m2!1sen!2sph" width="1500" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
-        <p class="student-info">
-            <span>&copy; <span id="year"></span></span>🌊
-            <span>Camille Rubia</span>🌊
-            <div class="flag-wrapper">
-                <span>Philippines</span>
-                <img class="ph-flag" src="images/ph-flag.webp" alt="Philippine flag" width="456" height="228">
-            </div>
-        <p></p>
+        <div class="student-info">
+            <p class="student-name">
+                <span>&copy; <span id="year"></span></span>🌊
+                <span>Camille Rubia</span>🌊
+                <div class="flag-wrapper">
+                    <span>Philippines</span>
+                    <img class="ph-flag" src="images/ph-flag.webp" alt="Philippine flag" width="456" height="228">
+                </div>
+            <p></p>
+        </div>
         <p id="lastModified">Last Modified: <span></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>

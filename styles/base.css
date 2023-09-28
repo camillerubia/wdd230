@@ -215,6 +215,7 @@ main .page-title, iframe {
 
 iframe {
     width: 100%;
+    height: 350px;
     grid-column: 1/3;
     padding-bottom: 30px !important;
 }
@@ -228,9 +229,12 @@ footer {
     gap: 8px;
 }
 
-footer .student-info, .flag-wrapper {
+footer .student-info {
+    flex-direction: column;
+}
+
+footer .student-info .student-name, .flag-wrapper {
     display: flex;
-    flex-direction: row;
     gap: 8px;
     font-weight: 700;
     font-size: 20px;
