@@ -28,6 +28,7 @@ button {
 
 .logo {
     width: 80px;
+    height: auto;
 }
 
 header {
@@ -189,27 +190,40 @@ main {
     row-gap: 30px;
 }
 
-main section {
+main section, #discover-page .page-visit {
     background: #fff;
     padding: 25px;
 }
 
-main .card, .event-section {
+main .card, .event-section, #discover-page .card .section-card, .page-visit {
     border-radius: 8px;
     border: 1px solid #081C15;
 }
 
-.event-section {
+.event-section, #discover-page .section-card {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.event-section h2 {
+#discover-page .section-card {
+    row-gap: 30px;
+}
+
+#discover-page .card .visits {
+    font-weight: 700;
+}
+
+.event-section h2, .card h2 {
     padding-bottom: 16px;
 }
 
-.event-section .card-img {
+#discover-page .event-section h2 {
+    display: none;
+}
+
+.event-section .card-img, #discover-page .card-wrapper .card-img, .heading-img {
     width: 100%;
+    height: auto;
 }
 
 .event-section .event-wrapper {
@@ -218,7 +232,7 @@ main .card, .event-section {
     margin-bottom: 20px;
 }
 
-.event-section .event-wrapper .event {
+.event-section .event-wrapper .event, #discover-page .page-visit {
     font-weight: 700;
     margin: 10px 0;
 }
@@ -233,9 +247,9 @@ main .card, .event-section {
     list-style: none;
 }
 
-/* main .discover-main {
-    
-} */
+#discover-page .card .card-img {
+    padding-bottom: 20px;
+}
 
 footer {
     background-color: #081C15;
@@ -248,6 +262,7 @@ footer a {
     justify-content: center;
     text-align: left;
 }
+
 .footer-bcc-details .contact-info {
     padding: 5px 0;
 }
