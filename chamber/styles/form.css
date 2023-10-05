@@ -1,0 +1,11 @@
+#range-values {
+    display: flex;
+}
+
+#range-values option {
+    flex: auto;
+}
+
+#range {
+    width: 94%;
+}
