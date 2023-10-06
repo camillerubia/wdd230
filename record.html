@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment - record page">
+    <meta name="author" content="Camille Rubia">
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/record.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Parisienne&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="rubia-favicon.ico">
+
+    <meta property="og:title" content="Camille Rubia - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/3/36/Municipal_agora_area_of_Botolan%2C_Zambales_jf9650_23.jpg">
+    <meta property="og:url" content="https://camillerubia.github.io/wdd230">   
+</head>
+<body>
+    <header>
+        <img class="student-image" src="images/camille-rubia.webp" alt="Camille Rubia's photo" width="440" height="511">
+        <h1>Camille Rubia</h1>
+        <div id="mode">✩</div>
+    </header>
+    <nav>
+        <button id="menu" title="menu"> </button>
+        <ul class="navigation">
+            <li><a  href="index.html" >Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a class="active" href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <div class="content-wrapper">
+        <main>
+            <div class="confirmation-message">
+                <h1>THANK YOU!</h1>
+                <p>Your responses have been recorded.</p>
+            </div>
+        </main>
+        <footer>
+            <div class="student-info">
+                <p class="student-name">
+                    <span>&copy; <span id="year"></span></span>🌊
+                    <span>Camille Rubia</span>🌊
+                    <div class="flag-wrapper">
+                        <span>Philippines</span>
+                        <img class="ph-flag" src="images/ph-flag.webp" alt="Philippine flag" width="456" height="228">
+                    </div>
+                <p></p>
+            </div>
+            <p id="lastModified">Last Modified: <span></span></p>
+        </footer>
+    </div>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/page-visit.js"></script>
+</body>
+</html>

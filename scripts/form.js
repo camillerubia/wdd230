@@ -1,6 +1,6 @@
 const p1 = document.querySelector("#pwd");
 const p2 = document.querySelector("#pwd2");
-const message = document.querySelector("#formmessage");
+const message = document.querySelector("#form-message");
 
 p2.addEventListener("focusout", checkSame);
 

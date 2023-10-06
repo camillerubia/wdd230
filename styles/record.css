@@ -1,0 +1,20 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: block !important;
+    flex: 1;
+}
+
+main .confirmation-message {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+main .confirmation-message p {
+    font-size: 20px;
+}
