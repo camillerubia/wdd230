@@ -11,9 +11,13 @@
 #range-values option {
     flex: auto;
 }
+ 
+.range-slider {
+    width: 100%;
+}
 
 #range {
-    width: 94%;
+    width: 500px;
 }
 
 #range-value {

@@ -83,6 +83,26 @@
         padding: 10px;
     }
 
+    .join-page {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    form fieldset {
+        width: 100%;
+    }
+
+    main .overall-benefits {
+        margin-top: 2rem;
+        padding: 0 35px;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+
+    }
+
+    main .overall-benefits ul {
+        padding: 1rem 2rem;
+    }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;

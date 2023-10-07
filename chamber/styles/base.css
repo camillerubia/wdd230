@@ -251,6 +251,103 @@ main .card, .event-section, #discover-page .card .section-card, .page-visit {
     padding-bottom: 20px;
 }
 
+form fieldset {
+    border: 5px solid #081C15;
+    border-radius: 10px;
+    padding: .5rem 5%;
+}
+
+form legend {
+    color: #B7E4C7;
+    margin: 0 1rem;
+    padding: 6px;
+    background: #081C15;
+    border-radius: 5px;
+}
+
+form input, textarea {
+    margin-top: 10px;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #081C15;
+    font-size: 1rem;
+}
+
+.basic-info label, .membership-level div, .text-box label {
+    font-weight: 700;
+}
+
+form label.top input, form label.top select, textarea {
+    --webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #081C15;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #081C15;
+    width: 100%;
+    background-color: #d8f1e1;
+}
+
+form label.top select, textarea select {
+    background-color: #d8f1e1;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #081C15;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1.5px solid #081C15; 
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    background-color: #081C15; 
+    border-color: #081C15;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #081C15;
+    color: #B7E4C7;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin-bottom: 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border: red solid 2px;
+}
+
+form label.top input:required:valid {
+    border: green solid 2px;
+}
+
+main .overall-benefits {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+main .overall-benefits .card ul {
+    padding-left: 1.5rem;
+}
+
+main .overall-benefits .card ul li {
+    padding: 10px 0;
+}
+
 footer {
     background-color: #081C15;
     color: #B7E4C7;
