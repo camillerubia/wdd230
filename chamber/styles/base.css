@@ -327,7 +327,7 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border: red solid 2px;
+    border: #ff000082 solid 2px;
 }
 
 form label.top input:required:valid {
