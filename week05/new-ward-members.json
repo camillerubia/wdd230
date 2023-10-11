@@ -1,0 +1,24 @@
+{
+    "familyName": "Belmont",
+    "movedDate": "22 Aug 2020",
+    "familyMemberCount": 3,
+    "visited": true,
+    "familyMembers": [
+        {
+            "name": "Trevor",
+            "gender": "male",
+            "birthdate": "28 January 1964"
+        },
+        {
+            "name": "Richter",
+            "gender": "male",
+            "birthdate": "23 October 1996"
+        },
+        {
+            "name": "Lisa",
+            "gender": "female",
+            "birthdate": "9 March 1962"
+        }
+    ]
+}
+

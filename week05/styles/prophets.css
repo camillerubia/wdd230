@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: "Lora", serif;
+    background-color: #081C15;
+    color: #D8F3DC;
+}
+
+header {
+    text-align: center;
+}
+
+#cards {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    border: 1px solid #cbc3b3;
+    padding: 0.5rem;
+    background-color: #D8F3DC;
+    color: #081C15;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    padding: 10px;
+}
+
+section p {
+    font-size: small;
+}
+
+section img {
+    width: auto;
+    max-width: 325px;
+    height: 200px;
+    box-shadow: 0 0 1rem #11100e;
+    margin-top: 10px;
+}
