@@ -2,7 +2,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&appid=ce849aac9e4ca7eb729446e0c2683116';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=15.29&lon=120.03&appid=ce849aac9e4ca7eb729446e0c2683116';
 
 async function apiFetch() {
     try {
@@ -23,10 +23,10 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(data) {
-    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    currentTemp.innerHTML = `${(data.main.temp - 273.15).toFixed(2)}&deg;C - `;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', 'Current weather in Trier, Germany');
+    weatherIcon.setAttribute('alt', 'Current weather in Botolan, Zambales');
     captionDesc.textContent = `${desc}`;
 }

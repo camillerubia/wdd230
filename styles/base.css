@@ -213,6 +213,16 @@ main .page-title, iframe {
     gap: 15px;
 }
 
+.card .card-information-wrapper figure {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card .card-information-wrapper figure figcaption {
+    text-transform: capitalize;
+}
+
 iframe {
     width: 100%;
     height: 350px;
