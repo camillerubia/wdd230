@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Botolan Tech Innovators",
+            "address": "123 Technology Park, Maharlika Highway, Botolan, Zambales, Philippines",
+            "phoneNumber": "+63-917-123-4567",
+            "url": "botolantechinnovators.com",
+            "logo": "images/bot-tech-in.png",
+            "level": ""
+        },
+        {
+            "name": "Greenfield Organic Farms",
+            "address": "456 Organic Lane, Barangay Lumaynay, Botolan, Zambales, Philippines",
+            "phoneNumber": "+63-917-234-5678",
+            "url": "greenfieldorganicfarms.ph",
+            "logo": "images/gf-organic.png",
+            "level": ""
+        },
+        {
+            "name": "Zambales Logistics Solutions",
+            "address": "789 Logistics Road, Barangay Bangan, Botolan, Zambales, Philippines",
+            "phoneNumber": "+63-917-345-6789",
+            "url": "zambaleslogistics.com",
+            "logo": "images/log-sol.png",
+            "level": ""
+        },
+        {
+            "name": "Sea Breeze Gourmet Restaurant",
+            "address": "321 Coastal Street, Barangay Binoclutan, Botolan, Zambales, Philippines",
+            "phoneNumber": "+63-917-456-7890",
+            "url": "seabreezegourmet.ph",
+            "logo": "images/sea-breeze.png",
+            "level": ""
+        },
+        {
+            "name": "San Juan Pharmaceuticals",
+            "address": " 654 Health Center Drive, Barangay New San Juan, Botolan, Zambales, Philippines",
+            "phoneNumber": "+63-917-567-8901",
+            "url": "sanjuanpharma.com",
+            "logo": "images/pharma.png",
+            "level": ""
+        },
+        {
+            "name": "EcoWheels Electric Vehicles Botolan",
+            "address": "987 Eco Drive, Santiago, Botolan, Zambales, Philippines",
+            "phoneNumber": "+63-917-678-9012",
+            "url": "ecowheelsph.com",
+            "logo": "images/ecowheels.png",
+            "level": ""
+        },
+        {
+            "name": "Adventure Seekers Outfitters",
+            "address": "210 Outdoor Haven, Barangay Catol, Botolan, Zambales, Philippines",
+            "phoneNumber": "+63-917-789-0123",
+            "url": "adventureseekersph.com",
+            "logo": "images/as-outfitters.png",
+            "level": ""
+        }
+    ]
+}

@@ -348,6 +348,24 @@ main .overall-benefits .card ul li {
     padding: 10px 0;
 }
 
+#directory-page .menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#directory-page .menu button {
+    background: none;
+    padding: 3px 10px;
+    border: #081C15 solid 1.5px;
+    border-radius: 8px;
+}
+
+#directory-page .menu button img {
+    width: 25px;
+    height: auto;
+}
+
 footer {
     background-color: #081C15;
     color: #B7E4C7;

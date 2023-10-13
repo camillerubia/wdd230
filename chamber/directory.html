@@ -3,22 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join - Botolan Chamber of Commerce</title>
-    <meta name="description" content="Botolan Chamber of Commerce - Confirmation page">
+    <title>Directory - Botolan Chamber of Commerce</title>
+    <meta name="description" content="Directory page of Botolan Chamber of Commerce website">
     <meta name="author" content="Camille Rubia">
 
     <link href="../styles/normalize.css" rel="stylesheet">
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
-    <link href="../styles/record.css" rel="stylesheet">
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lora&display=swap" rel="stylesheet">
     
-    <link rel="icon" href="../chamber/images/botolan-icon.ico" type="image/x-icon">
+    <link rel="icon" href="images/botolan-icon.ico" type="image/x-icon">
 
     <meta property="og:title" content="Botolan Chamber of Commerce">
     <meta property="og:type" content="website">
@@ -38,10 +35,10 @@
         <nav>
             <button id="menu" title="menu">  </button>
             <ul class="navigation">
-                <li><a  href="index.html" >Home</a></li>
+                <li><a href="index.html" >Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a class="active" href="join.html">Join</a></li>
+                <li><a class="active" href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
             </ul>
             <a class="logo-link" href="index.html">
                 <img class="logo" src="../chamber/images/botolan-logo.webp" alt="Botolan Chamber of Commerce logo">
@@ -52,41 +49,47 @@
             </a>
         </nav>
     </header>
-    <div class="content-wrapper">
-        <main>
-            <div class="confirmation-message">
-                <h1>Thank you for joining!</h1>
-                <p>We have received your application.</p>
-            </div>
-        </main>
-        <footer>
-            <div class="footer-bcc-details">
-                <a class="logo-link" href="index.html">
-                    <img class="logo" src="../chamber/images/botolan-logo.webp" alt="Botolan Chamber of Commerce logo">
-                    <div class="name-wrapper">
-                        <h2>Botolan</h2>
-                        <p>Chamber of Commerce</p>
-                        <span>Botolan, Zambales 2202</span>
-                    </div>
-                </a>
-                <div class="contact-info">
-                    <span>info@botolancc.org</span>
-                    <span>+639081232412</span>
-                    <span>📍 Location Map</span>
+    <main id="directory-page">
+        <div class="menu">
+            <button id="grid">
+                <img src="images/grid.png" alt="grid display">
+            </button>
+		    <button id="list">
+                <img src="images/list.png" alt="list display">
+            </button>
+        </div>
+        <article class="grid-display">
+            
+        </article>
+    </main>
+    <footer>
+        <div class="footer-bcc-details">
+            <a class="logo-link" href="index.html">
+                <img class="logo" src="../chamber/images/botolan-logo.webp" alt="Botolan Chamber of Commerce logo">
+                <div class="name-wrapper">
+                    <h2>Botolan</h2>
+                    <p>Chamber of Commerce</p>
+                    <span>Botolan, Zambales 2202</span>
                 </div>
+            </a>
+            <div class="contact-info">
+                <span>info@botolancc.org</span>
+                <span>+639081232412</span>
+                <span>📍 Location Map</span>
             </div>
-            <div class="footer-student-info">
-                <p>
-                    <span>&copy; <span id="year"></span></span>
-                    <span>Botolan Chamber</span>
-                </p> |
-                <p><span class="student-name">Camille Rubia</span> |</p>
-                <p><span>WDD230 Project</span> |</p>
-                <p id="lastModified">Last Modified: <span></span></p>
-            </div>
-        </footer>
-    </div>
+        </div>
+        <div class="footer-student-info">
+            <p>
+                <span>&copy; <span id="year"></span></span>
+                <span>Botolan Chamber</span>
+            </p> |
+            <p><span class="student-name">Camille Rubia</span> |</p>
+            <p><span>WDD230 Project</span> |</p>
+            <p id="lastModified">Last Modified: <span></span></p>
+        </div>
+    </footer>
     <script src="../scripts/getDates.js"></script>
     <script src="../scripts/hamburger.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 </html>
