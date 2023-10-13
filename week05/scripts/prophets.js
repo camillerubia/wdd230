@@ -28,7 +28,6 @@ const displayProphets = (prophets) => {
         portrait.setAttribute('width', '340');
         portrait.setAttribute('height', '440');
 
-
         card.appendChild(fullName);
         card.appendChild(birthDate);
         card.appendChild(birthPlace);
