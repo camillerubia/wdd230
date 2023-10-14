@@ -36,3 +36,19 @@ const displayMembers = (members) => {
 }
 
 getMemberData();
+
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
+
+gridButton.addEventListener("click", () => {
+	// example using arrow function
+	gridDisplay.classList.add("grid");
+	gridDisplay.classList.remove("list");
+});
+
+listButton.addEventListener("click", showList); 
+
+function showList() {
+	gridDisplay.classList.add("list");
+	gridDisplay.classList.remove("grid");
+}

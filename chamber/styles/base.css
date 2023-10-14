@@ -366,6 +366,54 @@ main .overall-benefits .card ul li {
     height: auto;
 }
 
+#directory-page .grid-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+
+#directory-page .grid-display img {
+    width: auto;
+    height: 200px;
+}
+
+#directory-page .grid-display section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#directory-page .grid section p {
+    padding-bottom: 10px;
+}
+
+#directory-page .grid section > p:first-child {
+    display: none;
+}
+
+#directory-page .list {
+    display: flex;
+    flex-direction: column;
+}
+
+#directory-page .list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 1rem;
+}
+
+#directory-page .list section img {
+    display: none;
+}
+
+#directory-page .list section:nth-child(even) {
+    background-color: #B7E4C7;
+}
+
 footer {
     background-color: #081C15;
     color: #B7E4C7;

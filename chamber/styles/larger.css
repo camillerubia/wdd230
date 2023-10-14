@@ -103,6 +103,12 @@
         padding: 1rem 2rem;
     }
 
+    #directory-page {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
