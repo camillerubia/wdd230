@@ -400,6 +400,7 @@ main .overall-benefits .card ul li {
 #directory-page .grid-display .content-wrapper a,
 #directory-page .grid-display .content-wrapper p {
     font-size: 14px;
+    padding-bottom: 5px;
 }
 
 #directory-page .grid-display section {
@@ -414,11 +415,6 @@ main .overall-benefits .card ul li {
     box-shadow: -1px 6px 5px -1px rgba(0,0,0,0.61);
     -webkit-box-shadow: -1px 6px 5px -1px rgba(0,0,0,0.61);
     -moz-box-shadow: -1px 6px 5px -1px rgba(0,0,0,0.61);
-}
-
-#directory-page .grid-display .grid .content-wrapper p {
-    padding-bottom: 10px;
-    font-size: 14px;
 }
 
 #directory-page .grid-display section > div p:first-of-type {
