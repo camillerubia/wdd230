@@ -83,6 +83,11 @@
         padding: 10px;
     }
 
+    #directory-page .list .content-wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
     .join-page {
         grid-template-columns: 1fr 2fr;
     }
@@ -107,7 +112,6 @@
         display: flex !important;
         flex-direction: column;
     }
-
 
     footer {
         display: grid;

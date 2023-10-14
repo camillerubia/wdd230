@@ -11,6 +11,7 @@ const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement('section');
         let logo = document.createElement('img');
+        let wrapper = document.createElement('div');
         let name = document.createElement('p');
         let address = document.createElement('p');
         let number = document.createElement('p');
@@ -26,11 +27,14 @@ const displayMembers = (members) => {
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '250');
         logo.setAttribute('height', '250');
+        wrapper.setAttribute('class', 'content-wrapper');
 
         card.appendChild(logo);
-        card.appendChild(name);
-        card.appendChild(address);
-        card.appendChild(number);
+        wrapper.appendChild(name);
+        wrapper.appendChild(address);
+        wrapper.appendChild(number);
+        wrapper.appendChild(website);
+        card.appendChild(wrapper);
         gridDisplay.appendChild(card);
     });
 }
