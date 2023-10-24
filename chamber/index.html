@@ -54,24 +54,48 @@
         <button class="join-button">Join Us!</button>
     </div>
     <main>
+        <div class="banner">
+            <div class="message">
+                <p>Join Us for a Night of Networking!</p>
+                <br>
+                <h2>🌟Botolan Chamber of Commerce Meet and Greet🌟</h2>
+                <br>
+                <p>🗓 Date: Wednesday<br></p>
+                <p>🕖 Time: 7:00 PM<br></p>
+                <p>📍 Where: Botolan Chamber of Commerce Office<br></p>
+                <br><br>
+                <p>Calling all entrepreneurs and businesses!</p>
+                <p>Come mingle, connect, and discover opportunities at our Meet and Greet event.</p>
+                <p>Don't miss out on a chance to expand your network and explore collaborations.</p><br><br>
+                <p>What to Expect:</p>
+                <p>Networking Opportunities</p>
+                <p>Refreshing Conversations</p>
+                <p>Business Insights</p>
+                <p>Light Refreshments</p><br><br>
+                <p>RSVP Today! Let's build a stronger Botolan business community together.<br></p>
+                <br>
+                <p>See you there!</p>
+            </div>
+            <a href="#" onclick="closeBanner('.banner')" class="close-banner">✖</a>
+        </div>
         <section class="event-section">
             <h2>Latest Events</h2>
             <div class="event-wrapper">
-                <img class="card-img" src="../chamber/images/placeholder.webp" alt="event temporary image" width="1196" height="797">
+                <img class="card-img" src="../chamber/images/ribbon.webp" alt="ribbon cutting event" width="1196" height="797">
                 <span class="event">Ribbon Cutting</span>
                 <p class="event-details">Join us for the grand opening...</p>
                 <a class="event-link">learn more..</a>
             </div>
             <div class="event-wrapper">
-                <img class="card-img" src="../chamber/images/placeholder.webp" alt="event temporary image" width="1196" height="797">
-                <span class="event">Open House</span>
-                <p class="event-details">Join us for the grand opening...</p>
+                <img class="card-img" src="../chamber/images/workshop.webp" alt="digital marketing workshop event" width="1196" height="797">
+                <span class="event">Digital Marketing Workshop</span>
+                <p class="event-details">Valuable insights to enhance your digital marketing efforts..</p>
                 <a class="event-link">learn more..</a>
             </div>
             <div class="event-wrapper">
-                <img class="card-img" src="../chamber/images/placeholder.webp" alt="event temporary image" width="1196" height="797">
-                <span class="event">Now Open</span>
-                <p class="event-details">Join us for the grand opening...</p>
+                <img class="card-img" src="../chamber/images/seminar.webp" alt="funding seminar event" width="1920" height="1080">
+                <span class="event">Small Business Funding Seminar</span>
+                <p class="event-details">Financial experts and entrepreneurs to discuss various funding options...</p>
                 <a class="event-link">learn more..</a>
             </div>
         </section>
@@ -86,12 +110,26 @@
             </div>
         </section>
         <section class="card">
-            <h2>Weather</h2>
-            <div class="card-wrapper">
-                <span class="temperature">26°C</span>
-                <span class="forecast">Mostly Cloudy</span>
-                <span class="humidity">Humidity: 94%</span>
-                <span class="dew-point">Dew point: 24°</span>
+            <div class="weather-wrapper">
+                <h2>Weather</h2>
+                <div class="card-information-wrapper">
+                    <figure>
+                        <div id="weather-icon">
+    
+                        </div>
+                        <span id="current-temp"></span>
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <div class="weather-forecast">
+                    <figure>
+                        <div id="weather-icon">
+    
+                        </div>
+                        <span id="current-temp"></span>
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
             </div>
         </section>
     </main>
@@ -123,5 +161,9 @@
     </footer>
     <script src="../scripts/getDates.js"></script>
     <script src="../scripts/hamburger.js"></script>
+    <script src="../scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>

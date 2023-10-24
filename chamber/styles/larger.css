@@ -42,6 +42,10 @@
         grid-template-columns: 2fr 1fr;
     }
 
+    main .banner {
+        grid-column: 1/3;
+    }
+
     #discover-page {
         grid-template-columns: 1fr 2fr;
         gap: 50px;
