@@ -1,22 +1,24 @@
 {
-    "silver": [
+    "elite-members": [
         {
             "company": "Botolan Tech Innovators",
-            "advertisement": "Experience innovation at its finest with Botolan Tech Innovators, our dynamic Silver Member. Dive into cutting-edge technology solutions designed to transform businesses. Stay ahead in the digital landscape with our innovative tech services."
+            "advertisement": "Experience innovation at its finest with Botolan Tech Innovators, our dynamic Silver Member. Dive into cutting-edge technology solutions designed to transform businesses. Stay ahead in the digital landscape with our innovative tech services.",
+            "membership": "silver"
         }, 
         {
             "company": "Greenfield Organic Farms",
-            "advertisement": "Embrace the freshness of nature with Greenfield Organic Farms, our valued Silver Member. Explore a wide range of organic produce, meticulously grown to perfection. Taste the difference that comes from sustainable farming practices."
+            "advertisement": "Embrace the freshness of nature with Greenfield Organic Farms, our valued Silver Member. Explore a wide range of organic produce, meticulously grown to perfection. Taste the difference that comes from sustainable farming practices.",
+            "membership": "silver"
         },
         {
             "company": "Sea Breeze Gourmet Restaurant",
-            "advertisement": "Discover culinary excellence at SeaBreeze Gourmet Restaurant, our esteemed Silver Member. Indulge in exquisite flavors and exceptional service. Join us for a dining experience that combines passion and taste."
-        }
-    ],
-    "gold": [
+            "advertisement": "Discover culinary excellence at SeaBreeze Gourmet Restaurant, our esteemed Silver Member. Indulge in exquisite flavors and exceptional service. Join us for a dining experience that combines passion and taste.",
+            "membership": "silver"
+        },
         {
             "company": "EcoWheels Electric Vehicles Botolan",
-            "advertisement": "Drive towards a sustainable future with Ecowheels Electric Vehicles, our prestigious Gold Member. Explore an impressive lineup of eco-friendly vehicles, setting new standards in green mobility. Join the revolution and be part of a greener tomorrow."
+            "advertisement": "Drive towards a sustainable future with Ecowheels Electric Vehicles, our prestigious Gold Member. Explore an impressive lineup of eco-friendly vehicles, setting new standards in green mobility. Join the revolution and be part of a greener tomorrow.",
+            "membership": "gold"
         }
     ]
 }

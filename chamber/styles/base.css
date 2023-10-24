@@ -287,8 +287,9 @@ main .card, .event-section, #discover-page .card .section-card, .page-visit {
     padding: 10px;
 }
 
-.card .ad-wrapper ul {
-    list-style: none;
+.card .ad-wrapper {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 }
 
 #discover-page .card .card-img {
