@@ -29,5 +29,7 @@ function displayResults(data) {
     weatherHolder.appendChild(weatherIcon);
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', 'Current weather in Botolan, Zambales');
+    weatherIcon.setAttribute('width', '50');
+    weatherIcon.setAttribute('height', '50');
     captionDesc.textContent = `${desc}`;
 }

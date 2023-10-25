@@ -74,6 +74,8 @@ function displayForecast(data){
 
         weatherIcon.setAttribute('src', icon);
         weatherIcon.setAttribute('alt', 'Weather in Botolan, Zambales');
+        weatherIcon.setAttribute('width', '50');
+        weatherIcon.setAttribute('height', '50');
        
         weatherDate.textContent = dayForecast;
         weatherTemp.innerHTML = `${Math.round(temp)}&deg;C`;

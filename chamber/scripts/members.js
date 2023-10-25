@@ -45,7 +45,6 @@ const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
 
 gridButton.addEventListener("click", () => {
-	// example using arrow function
 	gridDisplay.classList.add("grid");
 	gridDisplay.classList.remove("list");
 });

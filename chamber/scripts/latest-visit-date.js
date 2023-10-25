@@ -25,4 +25,3 @@ if (theDateToday.getTime() == storedVisitDate.getTime() && pageVisits !== 0) {
 pageVisits++;
 
 localStorage.setItem("pageVisits-ls", pageVisits);
-console.log(pageVisits);
